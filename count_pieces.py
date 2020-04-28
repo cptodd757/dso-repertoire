@@ -3,7 +3,7 @@ import numpy as np
 from collections import Counter
 from copy import copy
 
-df = pd.read_csv('repertoire.csv')
+df = pd.read_csv('survey-responses/responses.csv')
 
 pieces = []
 
