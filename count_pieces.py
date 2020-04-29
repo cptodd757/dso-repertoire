@@ -29,6 +29,12 @@ def consolidate(name):
         return "firebird"
     if "scheh" in name:
         return "scheherazade"
+    if "tod und" in name:
+        return "strauss death and transfiguration"
+    if "faun" in name:
+        return "prelude to the afternoon of a fawn"
+    if "helden" in name:
+        return "ein heldenleben"
 
     answer = name
     number = -1
