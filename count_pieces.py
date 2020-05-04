@@ -56,7 +56,7 @@ counter = Counter(np.array(pieces))
 counts = pd.DataFrame.from_dict(dict(counter),orient='index')
 names = copy(counts)
 names = names.sort_index()
-names.to_csv('pieces_sorted.csv')
+#names.to_csv('pieces_sorted.csv')
 
 counts = counts.sort_values(by=0,ascending=False)
 counts.to_csv('counts_sorted.csv')
